@@ -1,0 +1,13 @@
+
+INSERT INTO CountryTable1 (Name) VALUES
+('India'),
+('USA'),
+('China');
+
+
+INSERT INTO CitiesTable1 (Name, CountryId) VALUES
+('Gurugram', 1),
+('Noida', 1),
+('Delhi', 1);
+
+

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Quadlab.Models.modelClass>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                User Name
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phone)
+            </th>
+            <th>
+               Address
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.firstName) @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.city), @Html.DisplayFor(modelItem => item.country)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.userId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.userId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.userId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
