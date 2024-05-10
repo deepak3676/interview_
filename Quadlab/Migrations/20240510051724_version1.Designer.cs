@@ -11,7 +11,7 @@ using Quadlab.Models.appdbContext;
 namespace Quadlab.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240509172904_version1")]
+    [Migration("20240510051724_version1")]
     partial class version1
     {
         /// <inheritdoc />

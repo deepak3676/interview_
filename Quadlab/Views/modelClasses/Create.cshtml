@@ -77,4 +77,45 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
+    <script>
+        // JavaScript code to call the GetCitiesByCountry action method
+        $('#countryDropdown').change(function () {
+            var countryName = $(this).val();
+            var countryId;
+
+            switch (countryName) {
+                case 'India':
+                    countryId = 1;
+                    break;
+                case 'USA':
+                    countryId = 2;
+                    break;
+                case 'China':
+                    countryId = 3;
+                    break;
+                // Add more cases for other countries as needed
+            }
+
+            $.ajax({
+                url: '/modelClasses/GetCitiesByCountry',
+                type: 'GET',
+                dataType: 'json',
+                data: { countryId: countryId },
+                success: function (cities) {
+                    // Populate the cities dropdown with the returned data
+                    $('#cityDropdown').empty().append('<option value="">Select City</option>');
+                    $.each(cities, function (index, city) {
+                        $('#cityDropdown').append($('<option>', {
+                            value: city.name,
+                            text: city.name
+                        }));
+                    });
+                },
+                error: function () {
+                    alert('Error occurred while fetching cities.');
+                }
+            });
+        });
+    </script>
+
 }

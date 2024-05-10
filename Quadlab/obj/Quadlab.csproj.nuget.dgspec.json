@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\Quadlab.csproj": {}
+    "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\Quadlab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\Quadlab.csproj": {
+    "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\Quadlab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\Quadlab.csproj",
+        "projectUniqueName": "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\Quadlab.csproj",
         "projectName": "Quadlab",
-        "projectPath": "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\Quadlab.csproj",
+        "projectPath": "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\Quadlab.csproj",
         "packagesPath": "C:\\Users\\drawa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\obj\\",
+        "outputPath": "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drawa\\AppData\\Roaming\\NuGet\\NuGet.Config",

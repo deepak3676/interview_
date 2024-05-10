@@ -162,5 +162,14 @@ namespace Quadlab.Controllers
         {
           return (_context.UserTable1?.Any(e => e.userId == id)).GetValueOrDefault();
         }
+
+        public IActionResult GetCitiesByCountry(int countryId)
+        {
+            var cities = _context.CitiesTable1
+                                .Where(c => c.CountryId == countryId)
+                                .ToList();
+
+            return Json(cities);
+        }
     }
 }

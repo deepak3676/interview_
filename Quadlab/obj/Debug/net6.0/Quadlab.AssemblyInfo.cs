@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quadlab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcab5373e49eca71f8d5d2dadf1ad61a8b60b0cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quadlab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quadlab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

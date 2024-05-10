@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zFi403ml4HFjHi1KLckvKo6HqQWWpu8TKyrEGrJzBt6jINKKHtvldemNI8i0j8UYUD32uW14nO+9uWyy/cRZ7A==",
+  "dgSpecHash": "Q/XzvApQacL5nic6+yZ9SDVBG6Co31DGuyIFHZEkzVt4NtP39q/ovIYl0YGuCefgNeOc+NslM7/dhJ6nOz2XzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drawa\\source\\repos\\Quadlab\\Quadlab\\Quadlab.csproj",
+  "projectFilePath": "C:\\Users\\drawa\\Desktop\\New folder\\interview_\\Quadlab\\Quadlab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drawa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\drawa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
